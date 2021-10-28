@@ -1,6 +1,4 @@
-body {
-    margin-left: 160px;
-}
+/* css for the sidebar header whatchmacallit */
 
 .sidebar-header {
     display: flex;
@@ -21,6 +19,8 @@ body {
     padding: 6px 8px 6px 8px;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    color: rgb(66, 74, 227);
 }
 
 .sidebar-initials h1 {
@@ -28,8 +28,7 @@ body {
 }
 
 .sidebar-list {
-    margin-top: 15px;
-    justify-content: space-evenly;
+    align-items: center;
 }
 .sidebar-list ul li a:hover {
     color: white;
@@ -46,6 +45,47 @@ body {
     text-decoration: none;
     font-size: 17px;
     color: white;
-    display: block;
-    
+    display: block; 
+    margin-top: 30px;
+}
+
+/* css for the home section of my webpage */
+
+.homepage {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.img-homepage img {
+    margin-left: 400px;
+    max-width: 300px;
+    border-radius: 200px;
+}
+
+.information-homepage {
+    color: black;
+    width: 425px;
+    text-align: left;
+}
+
+.information-btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.information-btns button {
+    border: none;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(66, 74, 227);
+    border-radius: 10px;
 }
