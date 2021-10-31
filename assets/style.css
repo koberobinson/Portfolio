@@ -49,6 +49,14 @@
     margin-top: 30px;
 }
 
+/* spacing for my page */
+
+.spacing {
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
 /* css for the home section of my webpage */
 
 .homepage {
@@ -59,7 +67,7 @@
 }
 
 .img-homepage img {
-    margin-left: 400px;
+    margin-left: 450px;
     max-width: 300px;
     border-radius: 200px;
 }
@@ -88,4 +96,39 @@
     cursor: pointer;
     background-color: rgb(66, 74, 227);
     border-radius: 10px;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+    margin-left: 450px;
+}
+
+/* about section */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 700px;
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+}
+
+.about-text {
+    display: flex;
+    text-align: center;
+}
+
+/* project section */
+
+.projects {
+    display: flex;
+    flex-direction: row;
 }
