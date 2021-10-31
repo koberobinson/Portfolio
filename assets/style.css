@@ -128,7 +128,18 @@
 
 /* project section */
 
-.projects {
+.project-alignment {
     display: flex;
     flex-direction: row;
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-title {
+    display: flex;
+    justify-content: center;
+}
+
