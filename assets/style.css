@@ -131,6 +131,7 @@
 .project-alignment {
     display: flex;
     flex-direction: row;
+    margin-left: 55px;
 }
 
 .projects {
@@ -140,6 +141,30 @@
 
 .projects-title {
     display: flex;
+    margin-left: 275px;
+}
+
+.col {
+    margin-left: 95px;
+}
+
+/* contact section */
+
+.contact-title {
+    margin-left: 275px;
+}
+
+.email {
+    display: flex;
     justify-content: center;
+    margin-right: 225px;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    color: rgb(66, 74, 227);
 }
 
